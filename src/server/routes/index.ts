@@ -1,6 +1,6 @@
 import staticRouter from "./static";
-import {Application} from "express";
+import { Application } from "express";
 
-export function configureRouting(server: Application){
-    server.use(staticRouter);
+export function configureRouting(server: Application) {
+  server.use(staticRouter);
 }
